@@ -45,12 +45,6 @@ public class HelloServlet extends HttpServlet {
 		writer.println("</body>");
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		doGet(request, response);
-	}
+	
 
 }
